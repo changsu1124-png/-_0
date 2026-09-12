@@ -1,0 +1,6 @@
+{
+  "name": "디지털 청첩장 스튜디오",
+  "description": "화이트 에디토리얼 톤의 세리프 감성 모바일 디지털 청첩장 및 실시간 스튜디오",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

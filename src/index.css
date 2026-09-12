@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Noto Serif KR', 'Nanum Myeongjo', serif;
+  }
+}
+
+/* Custom serif & editorial typography */
+.font-editorial-en {
+  font-family: 'Cormorant Garamond', 'Playfair Display', Georgia, serif;
+}
+
+.font-editorial-kr {
+  font-family: 'Noto Serif KR', 'Nanum Myeongjo', serif;
+}
+
+.font-script {
+  font-family: 'Pinyon Script', cursive, serif;
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F8F7F4;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #D9D4CC;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #BFB8AE;
+}
+
+/* Paper subtle noise overlay helper */
+.paper-pattern {
+  background-color: #FAF8F5;
+  background-image: radial-gradient(#E8E2D8 0.75px, transparent 0.75px);
+  background-size: 16px 16px;
+}
